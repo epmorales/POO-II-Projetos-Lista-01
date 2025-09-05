@@ -14,3 +14,8 @@ public class Main {
         }
     }
 }
+
+// Se você quiser adicionar novos animais no futuro, basta criar uma nova classe que implements
+// Animal e colocar ela na lista. O programa já está preparado para isso, porque usa polimorfismo.
+// Assim, cada animal novo sabe como emitir seu som, e o for vai chamar automaticamente o som certo
+// sem você precisar mexer no resto do código.

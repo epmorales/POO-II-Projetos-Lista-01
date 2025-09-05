@@ -9,3 +9,7 @@ public class Main {
         System.out.println("Área total do desenho: " + total);
     }
 }
+
+
+// É mais interessante usar composição em Desenho porque um desenho não é uma forma geométrica, ele possui várias formas.
+//Herança serve para modelar relações de “é-um”, já a composição serve para modelar “tem-um”.
